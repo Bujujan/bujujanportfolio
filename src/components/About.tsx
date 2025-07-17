@@ -1,9 +1,13 @@
 import React from "react";
 import Button from "./ui/Button";
+import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div
+      id="about"
+      className="h-screen w-full flex justify-center items-center"
+    >
       <div className="w-[60%] flex flex-col justify-center items-center gap-12">
         <div className="flex flex-col justify-center items-center gap-2">
           <p>About me</p>
@@ -23,12 +27,16 @@ const About = () => {
             Want to know more about me!
           </div>
           <div className="flex gap-4">
-            <Button variant="default" size="md" className="text-xs">
-              Let&apos;s Connect
-            </Button>
-            <Button variant="outline" size="md" className="text-xs">
-              Download CV
-            </Button>
+            <Link href="mailto:Bujujan.ru@gmail.com">
+              <Button variant="default" size="md" className="text-xs">
+                Let&apos;s Connect
+              </Button>
+            </Link>
+            <Link href="/assets/ResumeENG.pdf" target="_blank">
+              <Button variant="outline" size="md" className="text-xs">
+                Download CV
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

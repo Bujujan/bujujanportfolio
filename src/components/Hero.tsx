@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="flex flex-col items-center gap-8">
         <div className="flex items-center gap-4">
           <div className="text-7xl font-black">Hi, I&apos;m Bujujan</div>
-          <div className="border rounded-full w-22 h-22 flex items-center justify-center">
-            <div className="bg-[#333333] w-20 h-20 rounded-full flex items-center justify-center">
+          <div className=" border border-[#171717] rounded-full w-22 h-22 flex items-center justify-center">
+            <div className="bg-[#171717] w-20 h-20 rounded-full flex items-center justify-center">
               <Image
                 src={bujujan}
                 alt="logo"
@@ -36,9 +36,9 @@ export default function Hero() {
         </div>
 
         <div className="flex items-center gap-56">
-          <div className="flex items-center text-gray-500">
+          <div className="flex items-center">
             <MapPin className="mr-2" />
-            <p>Rabat, Morocco</p>
+            <p className="">Rabat, Morocco</p>
           </div>
           <div className="flex items-center justify-center bg-green-300 rounded-full p-1 px-3 gap-2">
             <div className="bg-green-500 w-2 h-2 rounded-full"></div>

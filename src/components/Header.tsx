@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import bujujan from "../../public/assets/images/bujujan.png";
 import Button from "./ui/Button";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
@@ -21,16 +22,17 @@ const Header = () => {
           <h1 className="font-semibold">Bujujan</h1>
         </div>
         <div className="flex gap-4">
-          <Link href="https://github.com/bujujan">Home</Link>
-          <Link href="https://github.com/bujujan">About</Link>
+          <Link href="/">Home</Link>
+          <Link href="#about">About</Link>
           <Link href="https://github.com/bujujan">Projects</Link>
         </div>
-        <Link href="https://bujujan.dev">
+        <Link href="mailto:Bujujan.ru@gmail.com">
           <Button variant="default" size="md" className="text-xs">
             Let&apos;s Connect
           </Button>
         </Link>
       </div>
+      {/* <ThemeToggle /> */}
     </div>
   );
 };
