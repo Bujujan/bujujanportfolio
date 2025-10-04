@@ -32,7 +32,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={raleway.variable}>
-      <body className={`${raleway.variable} antialiased`}>{children}</body>
+      <body className={`${raleway.variable} antialiased`}>
+        <div className="min-h-screen w-full bg-white relative overflow-hidden">
+          {/* Grid + Left & Right Gradient Glow */}
+          <div
+            className="absolute inset-0 z-0"
+            style={{
+              backgroundImage: `
+                linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+                linear-gradient(to bottom, #f0f0f0 1px, transparent 1px),
+                radial-gradient(circle 600px at 0% 200px, #d5c5ff, transparent),
+                radial-gradient(circle 600px at 100% 200px, #d5c5ff, transparent)
+              `,
+              backgroundSize: `
+                96px 64px,
+                96px 64px,
+                100% 100%,
+                100% 100%
+              `,
+            }}
+          />
+
+          {/* page content */}
+          <main className="relative z-10">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }

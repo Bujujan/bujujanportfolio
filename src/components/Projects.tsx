@@ -19,8 +19,11 @@ import { ArrowUpRight } from "lucide-react";
 
 const Projects = () => {
   return (
-    <div className="h-screen w-full flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-24">
+    <div
+      className="h-screen w-full flex items-center justify-center mb-24"
+      id="projects"
+    >
+      <div className="flex flex-col items-center justify-center gap-12">
         <div className="flex flex-col justify-center items-center gap-2">
           <p>Projects</p>
           <h1 className="text-4xl font-bold">Web Development</h1>
