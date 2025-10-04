@@ -14,13 +14,13 @@ const About = () => {
           <h1 className="text-4xl font-bold">It&apos;s me Bujujan</h1>
         </div>
         <div className="w-[70%] text-center text-lg">
-          I'm Bujujan, a software engineer with a strong focus on full-stack
-          development. With experience across web and mobile technologies,
-          I&apos;m passionate about building thoughtful and intuitive digital
-          experiences. My goal is to connect people and technology by
-          transforming complex ideas into clean, functional, and impactful
-          solutions. I&apos;m currently based in Morocco, always learning and
-          exploring new ways to craft better software.
+          I&apos;m Bujujan, a software engineer with a strong focus on
+          full-stack development. With experience across web and mobile
+          technologies, I&apos;m passionate about building thoughtful and
+          intuitive digital experiences. My goal is to connect people and
+          technology by transforming complex ideas into clean, functional, and
+          impactful solutions. I&apos;m currently based in Morocco, always
+          learning and exploring new ways to craft better software.
         </div>
         <div className="flex flex-col gap-4">
           <div className="text-sm text-gray-500 text-center">

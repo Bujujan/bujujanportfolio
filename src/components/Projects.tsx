@@ -28,7 +28,7 @@ const Projects = () => {
           <p>Projects</p>
           <h1 className="text-4xl font-bold">Web Development</h1>
           <p className="w-[60%] text-center mt-6 text-lg">
-            A selection of applications and digital experiences I've built,
+            A selection of applications and digital experiences I&apos;ve built,
             showcasing my skills in design, development, and problem-solving
             across web and mobile platforms.
           </p>
