@@ -67,7 +67,7 @@ const DEFAULT_ITEMS: MenuItem[] = [
 ];
 
 export default function BubbleMenu({
-  logo,
+  // logo,
   onMenuClick,
   className,
   style,
@@ -92,8 +92,8 @@ export default function BubbleMenu({
   const containerClassName = [
     "bubble-menu",
     useFixedPosition ? "fixed" : "absolute",
-    "left-0 right-0 top-8",
-    "flex items-center justify-between",
+    "right-0 top-8",
+    "flex items-center justify-center",
     "gap-4 px-8",
     "pointer-events-none",
     "z-[1001]",
@@ -241,7 +241,7 @@ export default function BubbleMenu({
         style={style}
         aria-label="Main navigation"
       >
-        <div
+        {/* <div
           className={[
             "bubble logo-bubble",
             "inline-flex items-center justify-center",
@@ -274,7 +274,7 @@ export default function BubbleMenu({
               } as CSSProperties
             }
           >
-            {typeof logo === "string" ? (
+            {/* {typeof logo === "string" ? (
               <img
                 src={logo}
                 alt="Logo"
@@ -282,10 +282,9 @@ export default function BubbleMenu({
               />
             ) : (
               logo
-            )}
-          </span>
-        </div>
-
+            )} */}
+        {/* </span>
+        </div> */}{" "}
         <button
           type="button"
           className={[

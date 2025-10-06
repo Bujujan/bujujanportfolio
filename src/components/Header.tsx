@@ -13,37 +13,23 @@ const Header = () => {
   const items = [
     {
       label: "home",
-
       href: "/",
-
       ariaLabel: "Home",
-
       rotation: -8,
-
       hoverStyles: { bgColor: "#3b82f6", textColor: "#ffffff" },
     },
-
     {
       label: "about",
-
       href: "#about",
-
       ariaLabel: "About",
-
       rotation: 8,
-
       hoverStyles: { bgColor: "#10b981", textColor: "#ffffff" },
     },
-
     {
       label: "projects",
-
       href: "#projects",
-
       ariaLabel: "Projects",
-
       rotation: 8,
-
       hoverStyles: { bgColor: "#f59e0b", textColor: "#ffffff" },
     },
   ];
@@ -57,7 +43,7 @@ const Header = () => {
       }}
     >
       <BubbleMenu
-        logo={<span style={{ fontWeight: 700 }}>Bujujan</span>}
+        logo=""
         items={items}
         menuAriaLabel="Toggle navigation"
         menuBg="#ffffff"

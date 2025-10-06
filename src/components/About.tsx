@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="flex flex-col gap-4">
           <div className="text-sm text-gray-500 text-center">
-            Want to know more about me!
+            Want to know more about me?
           </div>
           <div className="flex gap-4">
             <Link href="mailto:Bujujan.ru@gmail.com">

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-import { Raleway } from "next/font/google";
+import { Raleway, Instrument_Serif } from "next/font/google";
 
 const raleway = Raleway({
   subsets: ["latin"],

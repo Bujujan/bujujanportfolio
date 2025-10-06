@@ -9,30 +9,40 @@ export default function Hero() {
     <div className="h-screen w-full flex items-center justify-center">
       <div className="flex flex-col items-center gap-8">
         <div className="flex items-center gap-4">
-          <div className="text-7xl font-black">Hi, I&apos;m Bujujan</div>
-          <div className=" border border-[#171717] rounded-full w-22 h-22 flex items-center justify-center">
-            <div className="bg-[#171717] w-20 h-20 rounded-full flex items-center justify-center">
-              <Image
-                src={bujujan}
-                alt="logo"
-                width={100}
-                height={100}
-                className=""
-              />
-            </div>
+          <div className="bg-[#f59e0b] h-38 rounded-full flex items-center justify-center">
+            <Image
+              src={bujujan}
+              alt="logo"
+              width={100}
+              height={150}
+              className="mt-2 mr-1"
+            />
           </div>
+          <div className="text-7xl font-semibold">
+            Hi, I&apos;m{" "}
+            <span className="old-standard-tt-regular-italic mr-4">Bujujan</span>
+          </div>
+          <div className="rounded-full w-22 h-22 flex items-center justify-center"></div>
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="text-7xl font-black">A Software Engineer</div>
-          <Image
-            src={laptop}
-            alt="logo"
-            width={100}
-            height={100}
-            className=""
-          />
-          <div className="text-7xl font-black">Student</div>
+          <div className="text-7xl font-semibold">
+            <span className="old-standard-tt-regular-italic mr-4">
+              Software
+            </span>
+            Engineer
+          </div>
+          <div className="flex items-center rounded-full bg-[#3b82f6]  h-34">
+            <Image
+              src={laptop}
+              alt="logo"
+              width={100}
+              height={100}
+              className=""
+            />
+          </div>
+
+          <div className="text-7xl font-semibold">Student</div>
         </div>
 
         <div className="flex items-center gap-56">
